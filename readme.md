@@ -61,8 +61,13 @@ Para executar a aplicação digite ``node index.js``
 ---
 
 Para mais informações sobre o Mercadopago, consulte a [documentação oficial](https://www.mercadopago.com.br/developers/pt/docs/checkout-api/landing).
+
 Para mais informações sobre o Discord.js, consulte a [documentação oficial](https://old.discordjs.dev/#/docs/discord.js/main/general/welcome).
+
 Para mais informações sobre o Quick.DB, consulte a [documentação oficial](https://www.npmjs.com/package/quick.db).
+
 Para mais informações sobre o Moment, consulte a [documentação oficial](https://momentjs.com/).
+
 Para mais informações sobre o FS, consulte a [documentação oficial](https://nodejs.reativa.dev/0046-node-module-fs/index).
+
 Para mais informações sobre o Node.js, consulte a [documentação oficial](https://nodejs.org/en/docs).
