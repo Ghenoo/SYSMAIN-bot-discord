@@ -51,7 +51,7 @@ Antes de iniciar a aplicação, é necessário configurar os tokens, ids, e inst
        npm install
     
 
-Também é necessário criar um bot no ``https://discord.com/developers/applications``, com as permissões de admnistrador e após isso convidar o bot para seu discord.
+Também é necessário criar um bot no discord, com as permissões de admnistrador e após isso isso colocá-lo em seu servidor, clique [aqui](https://discord.com/developers/applications) para criar o bot no site do discord.
 
 
 ## Uso
