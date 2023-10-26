@@ -35,9 +35,9 @@
 
 Antes de iniciar a aplicação, é necessário configurar os tokens, ids, e instalar as dependências necessárias.
 
-    ```bash
+    
        npm install discord.js
-       
+
        npm install ms
 
        npm install quick.db
@@ -49,7 +49,7 @@ Antes de iniciar a aplicação, é necessário configurar os tokens, ids, e inst
        npm install fs
 
        npm install
-    ```
+    
 
 Também é necessário criar um bot no ``https://discord.com/developers/applications``, com as permissões de admnistrador e após isso convidar o bot para seu discord.
 
