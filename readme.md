@@ -20,7 +20,7 @@
 1. Clone o repositório para sua máquina local.
    
     ```bash
-    git clone [https://github.com/seu-usuario/SYSMAIN-bot-discord.git]
+    git clone https://github.com/seu-usuario/SYSMAIN-bot-discord.git
     ```
 
 
@@ -37,11 +37,23 @@ Antes de iniciar a aplicação, é necessário configurar os tokens, ids, e inst
 
     ```bash
        npm install discord.js
+    ```
+    ```bash
        npm install ms
+    ```
+    ```bash
        npm install quick.db
+    ```
+    ```bash
        npm install mercadopago
+    ```
+    ```bash
        npm install moment
+    ```
+    ```bash
        npm install fs
+    ```
+    ```bash
        npm install
     ```
 
