@@ -6,7 +6,7 @@ const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages],
 });
 
-const token = 'MTE2MTQzMTQ4NjEzNDc1NTM1OA.G60TWb.KWqRMlKqHr519AoOgxtb85hL_PBxv_lhncoigQ'; // Coloque seu token aqui
+const token = ''; // Coloque seu token aqui
 const guildId = '1161082513758896188'; // Coloque o ID do seu servidor aqui
 
 client.once('ready', () => {
