@@ -9,7 +9,7 @@
   <h1 align="center"> SYSMAIN DISCORD BOT - 💻📞 </h1>
 <br>
 
->: 🔍: Um bot que auxília suas vendas, limpa sua dm com o bot, formulário para fazer parte da equipe, ticekts e logs.
+>: 🔍: Um bot que auxília suas vendas, limpa sua dm com o bot, formulário para fazer parte da equipe, tickets e logs.
 > <br>
 
 
