@@ -276,13 +276,13 @@ client.on("interactionCreate", async(interaction) => {
       .setMaxLength(12) // Máximo de caracteres para a resposta
       .setPlaceholder("Coloque seu número do seu whatsapp:") // Mensagem que fica antes de escrever a resposta
       .setStyle(Discord.TextInputStyle.Short) // Tipo de resposta (Short | Paragraph)
-      .setRequired(true)
+      .setRequired(false)
 
       const pergunta4 = new Discord.TextInputBuilder()
       .setCustomId("pergunta4") // Coloque o ID da pergunta
       .setLabel("Porque você quer fazer parte da equipe?") // Coloque a pergunta
       .setMaxLength(500)
-      .setPlaceholder("Descreva porque você quer fazer parte da Equipe Frz:") // Mensagem que fica antes de escrever a resposta
+      .setPlaceholder("Descreva porque você quer fazer parte da Equipe Sysmain?:") // Mensagem que fica antes de escrever a resposta
       .setStyle(Discord.TextInputStyle.Paragraph) // Tipo de resposta (Short | Paragraph)
       .setRequired(true)
 
@@ -525,7 +525,7 @@ client.on('interactionCreate', async (interaction) => {
     } else if  (interaction.customId === 'close_10') {
 
       const member = interaction.member;
-      const roleId = '897008635438325760'; //id do cargo que tem permissão para fechar o ticket
+      const roleId = '1161082513758896194'; //id do cargo que tem permissão para fechar o ticket
   
       if (member.roles.cache.has(roleId)) {
         
