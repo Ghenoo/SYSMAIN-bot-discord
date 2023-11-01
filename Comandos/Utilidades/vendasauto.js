@@ -65,7 +65,7 @@ module.exports = {
                 .setDescription(`**🛒 | Produto: \`${produto}\`** \n **💵 | Preço:** \`${preco}\`\n **📦 | Estoque:** \`${estoque}\``)
                 .setThumbnail(`https://media.discordapp.net/attachments/1161430933715550208/1167177361578524693/F82gtNmWwAA7UmX.jpeg`)
                 .setImage('https://media.discordapp.net/attachments/1121019816170504244/1149752767724929125/acessobooster.png')
-                .setFooter({ text: `Frz Community | Sales System` })
+                .setFooter({ text: `Sysmain Community | Gheno System` })
 
                 const ticket = new Discord.ActionRowBuilder()
                 .addComponents([

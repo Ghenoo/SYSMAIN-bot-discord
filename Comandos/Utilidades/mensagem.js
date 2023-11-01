@@ -6,8 +6,8 @@ const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages],
 });
 
-const token = 'YOUR_BOT_TOKEN'; // Coloque seu token aqui
-const guildId = 'YOUR_GUILD_ID'; // Coloque o ID do seu servidor aqui
+const token = 'MTE2MTQzMTQ4NjEzNDc1NTM1OA.G60TWb.KWqRMlKqHr519AoOgxtb85hL_PBxv_lhncoigQ'; // Coloque seu token aqui
+const guildId = '1161082513758896188'; // Coloque o ID do seu servidor aqui
 
 client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}`);

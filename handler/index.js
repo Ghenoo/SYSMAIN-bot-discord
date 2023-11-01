@@ -2,7 +2,7 @@ const fs = require("fs")
 
 module.exports = async (client) => {
 
-    const SlashsArray = []
+    const SlashArray = []
 
     fs.readdir(`./Comandos`, (error, folder) => {
         folder.forEach(subfolder => {
@@ -14,17 +14,17 @@ module.exports = async (client) => {
                     if (!files?.name) return;
                     client.slashCommands.set(files?.name, files);
 
-                    SlashsArray.push(files)
+                    SlashArray.push(files)
                 });
             });
         });
     });
     client.on("ready", async () => {
-        client.guilds.cache.forEach(guild => guild.commands.set(SlashsArray))
+        client.guilds.cache.forEach(guild => guild.commands.set(SlashArray))
     });
 
     client.on("guildCreate", async (guild) => {
-        guild.commands.set(SlashsArray)
+        guild.commands.set(SlashArray)
     });
 
 };

@@ -13,6 +13,7 @@ module.exports = {
     }
 ],
 
+
   run: async (client, interaction) => {
 
     if (!interaction.member.permissions.has(Discord.PermissionFlagsBits.ManageGuild)) {

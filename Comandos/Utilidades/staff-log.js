@@ -23,7 +23,7 @@ module.exports = {
         },
         {
           name: "promovido",
-          value: 'promvido',
+          value: 'promovido',
         },
         {
           name: "rebaixado",
@@ -52,7 +52,7 @@ module.exports = {
     let staff = interaction.options.getUser("staff");
     let ac = interaction.options.getString("oque-ocorreu");
     let cargo = interaction.options.getRole("cargo");
-    let canal = interaction.guild.channels.cache.get("1121797332158140548");//Coloque o id do canal onde vai ser enviado o staff-log
+    let canal = interaction.guild.channels.cache.get("1169205224800526376");//Coloque o id do canal onde vai ser enviado o staff-log
 
 
     if(ac === "sair"){
@@ -68,7 +68,7 @@ module.exports = {
                 ephemeral: true
               });
         });
-    }else if(ac === "promvido"){
+    }else if(ac === "promovido"){
         const embed = new Discord.EmbedBuilder()
         .setTitle("👥・Staff-log")
         .setColor("Red")

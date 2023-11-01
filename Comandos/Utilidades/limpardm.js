@@ -55,7 +55,7 @@ module.exports = {
       }, 6000)
         setTimeout(() => {
             interaction.editReply({embeds: [ new Discord.EmbedBuilder()
-                .setDescription(`<:white_check_mark:1167191738633420871> Prontinho, ${interaction.user} nossa DM foi limpada com sucesso! <a:A_joinhaTKF:1043225767082991666>`)
+                .setDescription(`<:white_check_mark:1167191738633420871> Prontinho, ${interaction.user} nossa DM foi limpada com sucesso!`)
                 .setColor(`f0f00f`)]
             })}, 8000)
         const deleteMessages = await client.channels.cache
